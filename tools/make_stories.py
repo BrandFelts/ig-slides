@@ -9,8 +9,8 @@ AVATAR = ROOT / "assets" / "avatar.jpg"
 P = ROOT / "assets" / "photos"
 # (line, photo, object-position focusing on Brand)
 STORIES = [
-    ("I send out a free newsletter every Monday. Fitness, business and whatever cool sh*t I'm into", "mirror.jpg", "50% 22%"),
-    ("Toolkits & Cool Sh*t drops Monday at noon. It's free", "yard.jpg", "32% 40%"),
+    ("I send out a free newsletter every Monday. Fitness, business and whatever cool shit I'm into", "mirror.jpg", "50% 22%"),
+    ("Toolkits & Cool Shit drops Monday at noon. It's free", "yard.jpg", "32% 40%"),
     ("If you liked today's post, the newsletter goes deeper. Free every Monday", "gymfull.jpg", "50% 42%"),
     ("Fitness, confidence, business, watches, travel. One email a week. Free", "dinner.jpg", "50% 40%"),
     ("Want the stuff I don't post here? It's in the newsletter", "festival.jpg", "50% 30%"),
