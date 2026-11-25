@@ -1,6 +1,6 @@
 """Render the newsletter story variants (1080x1920) into stories/story1.png ... storyN.png.
 Each story: a photo of Brand on top, the tweet-style card overlapping it, then the sign-up prompt.
-The bottom area is left clear for Instagram's link sticker."""
+Posted automatically, so the CTA points to the link in bio (no sticker)."""
 import pathlib, html
 from playwright.sync_api import sync_playwright
 
@@ -29,7 +29,8 @@ def page(text, photo, pos):
 <div style="display:flex;flex-direction:column;gap:4px"><div style="font-size:36px;font-weight:700">Brand Felts</div><div style="font-size:31px;color:#536471">Brand Felts Approach</div></div></div>
 <p style="margin:34px 0 0 0;font-size:50px;line-height:1.25;font-weight:700">{t}</p>
 </div>
-<div style="position:absolute;left:0;right:0;top:1560px;text-align:center;color:#FFFFFF;font-size:46px;font-weight:700">Tap the link to sign up ↓</div>
+<div style="position:absolute;left:0;right:0;top:1560px;display:flex;justify-content:center"><div style="background:#FFFFFF;color:#0F1419;border-radius:999px;padding:30px 56px;font-size:46px;font-weight:700">Sign up free, link in bio</div></div>
+<div style="position:absolute;left:0;right:0;top:1720px;text-align:center;color:#C9CDD2;font-size:36px">@brandfeltsapproach</div>
 </div></body></html>"""
 
 out = ROOT / "stories"; out.mkdir(exist_ok=True)
