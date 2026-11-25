@@ -13,7 +13,7 @@ STORIES = [
     ("Toolkits & Cool Shit drops Monday at noon. It's free", "yard.jpg", "32% 40%"),
     ("If you liked today's post, the newsletter goes deeper. Free every Monday", "gymfull.jpg", "50% 42%"),
     ("Fitness, confidence, business, watches, travel. One email a week. Free", "dinner.jpg", "50% 40%"),
-    ("Want the stuff I don't post here? It's in the newsletter", "festival.jpg", "50% 30%"),
+    ("I go way deeper on business, fitness and confidence in my newsletter. Free every Monday", "festival.jpg", "50% 30%"),
     ("Sign up for my newsletter. It's free and it's not boring", "mirror.jpg", "50% 30%"),
     ("Stop scrolling and read something useful. Free newsletter every Monday", "gymfull.jpg", "50% 30%"),
 ]
