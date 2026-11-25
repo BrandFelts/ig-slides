@@ -44,7 +44,8 @@ def cta_slide(i, n):
 <div style="display:flex;flex-direction:column;gap:4px"><div style="font-size:36px;font-weight:700">{NAME}</div><div style="font-size:30px;color:{MUTED}">{HANDLE}</div></div></div>
 <p style="margin:56px 0 0 0;font-size:64px;line-height:1.15;font-weight:700">Want more?</p>
 <p style="margin:36px 0 0 0;font-size:40px;line-height:1.35">I send out a free newsletter every Monday called Toolkits &amp; Cool Sh*t. Fitness, business, growth and whatever cool sh*t I'm into</p>
-<div style="margin-top:56px;align-self:flex-start;background:{INK};color:{BG};border-radius:999px;padding:26px 44px;font-size:36px;font-weight:700">Sign up free, link in bio</div>
+<p style="margin:28px 0 0 0;font-size:36px;line-height:1.3;font-weight:700">+ get my confidence framework free when you sign up</p>
+<div style="margin-top:48px;align-self:flex-start;background:{INK};color:{BG};border-radius:999px;padding:26px 44px;font-size:36px;font-weight:700">Sign up free, link in bio</div>
 <div style="position:absolute;left:90px;bottom:80px;font-size:32px;color:{MUTED}">{i} / {n}</div></div>
 <div style="width:520px;height:1350px;box-sizing:border-box;padding:40px 40px 40px 0">
 <img src="file://{FULL}" style="width:480px;height:1270px;border-radius:32px;object-fit:cover;display:block"></div></div>""")
