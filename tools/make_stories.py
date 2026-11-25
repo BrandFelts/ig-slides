@@ -29,8 +29,9 @@ def page(text, photo, pos):
 <div style="display:flex;flex-direction:column;gap:4px"><div style="font-size:36px;font-weight:700">Brand Felts</div><div style="font-size:31px;color:#536471">Brand Felts Approach</div></div></div>
 <p style="margin:34px 0 0 0;font-size:50px;line-height:1.25;font-weight:700">{t}</p>
 </div>
-<div style="position:absolute;left:0;right:0;top:1560px;display:flex;justify-content:center"><div style="background:#FFFFFF;color:#0F1419;border-radius:999px;padding:30px 56px;font-size:46px;font-weight:700">Sign up free, link in bio</div></div>
-<div style="position:absolute;left:0;right:0;top:1720px;text-align:center;color:#C9CDD2;font-size:36px">@brandfeltsapproach</div>
+<div style="position:absolute;left:0;right:0;top:1535px;text-align:center;color:#FFFFFF;font-size:40px;font-weight:700;line-height:1.3">+ get my confidence framework free<br>when you sign up</div>
+<div style="position:absolute;left:0;right:0;top:1670px;display:flex;justify-content:center"><div style="background:#FFFFFF;color:#0F1419;border-radius:999px;padding:30px 56px;font-size:46px;font-weight:700">Sign up free, link in bio</div></div>
+<div style="position:absolute;left:0;right:0;top:1825px;text-align:center;color:#C9CDD2;font-size:34px">@brandfeltsapproach</div>
 </div></body></html>"""
 
 out = ROOT / "stories"; out.mkdir(exist_ok=True)
